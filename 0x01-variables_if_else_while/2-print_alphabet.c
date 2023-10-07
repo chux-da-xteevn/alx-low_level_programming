@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - entry block
  * @void: No argument
@@ -14,5 +15,5 @@ int main(void)
 	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
 		putchar('\n');
-		return (0);
+	return (0);
 }
