@@ -1,13 +1,26 @@
-#include <unistd.h>
+#include <stdio.h>
 
-/** main - core of the program
+/**
  *
- * Return : 0 for success mark
+ * main - carries the progrm
+ *
+ * return : returns 0 for success
  *
  */
 
-int main()
-{
-	write (STDOUT_FILENO, "_putchar\n", 9);
-	return (0);
+int _putchar(char c) {
+  
+}
+
+int main() {
+  _putchar('_');
+  _putchar('p');
+  _putchar('u');
+  _putchar('t');
+  _putchar('c');
+  _putchar('h');
+  _putchar('a');
+  _putchar('r');
+  _putchar('\n');
+  return 0;
 }
