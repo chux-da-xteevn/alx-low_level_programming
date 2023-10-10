@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "_putchar.h"
+#include <unistd.h>
 
 /** main - core of the program
  *
@@ -7,13 +6,8 @@
  *
  */
 
-int main(void)
+int main()
 {
-	char word[8] = "_putchar";
-	int i;
-	for (i = 0; i < 8; i++)
-		_putchar(word[i]);
-	_putchar('\n');
+	write (STDOUT_FILENO, "_putchar\n", 9);
 	return (0);
 }
-	
