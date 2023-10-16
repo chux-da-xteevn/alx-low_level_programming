@@ -1,11 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h> // You can include other standard libraries as needed
+#include <stdio.h>
 
-/* Function prototypes */
 void reset_to_98(int *n);
+int _putchar (char c);
 
-/* Add more function prototypes here as needed */
-
-#endif /* MAIN_H */
+#endif
