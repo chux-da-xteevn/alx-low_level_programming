@@ -16,5 +16,5 @@ char *_strcpy(char *dest, char *src)
 	}
 	dest[i] = '\0'; /* Ensure the destination string is null-terminated */
 
-	return dest;
+	return (dest);
 }
