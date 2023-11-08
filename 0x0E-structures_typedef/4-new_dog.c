@@ -2,6 +2,15 @@
 #include <string.h>
 #include "dog.h"
 
+/**
+ * new_dog - Creates a new dog with a copy of name and owner
+ * @name: The name of the dog
+ * @age: The age of the dog
+ * @owner: The owner of the dog
+ *
+ * Return: Pointer to the new dog, or NULL if memory allocation fails
+ */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *new_dog;
