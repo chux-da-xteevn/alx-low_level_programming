@@ -5,7 +5,8 @@
  * main - prints the opcodes of its own main function
  * @argc: number of arguments
  * @argv: array of arguments
- * Return: 0 on success, 1 on incorrect number of arguments, 2 on negative bytes
+ * Return: 0 on success, 1 on incorrect
+ * number of arguments, 2 on negative bytes
  */
 int main(int argc, char *argv[])
 {
