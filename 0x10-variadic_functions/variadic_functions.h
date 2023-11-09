@@ -10,8 +10,8 @@
  */
 typedef struct format
 {
-    char *format;
-    void (*func)(va_list);
+	char *format;
+	void (*func)(va_list);
 } format_t;
 
 
