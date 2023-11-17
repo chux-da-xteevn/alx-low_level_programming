@@ -3,7 +3,8 @@
 /**
  * premain - This Function executes before the main function.
  *
- * Description: Prints a message before the main function is executed.
+ * Description: Prints a message
+ * before the main function is executed.
  */
 void __attribute__((constructor)) premain(void)
 {
